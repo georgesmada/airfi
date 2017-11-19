@@ -1,0 +1,22 @@
+.pageHeader {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+
+  div, span {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  div {
+    font-size: 18px;
+    color : #87999f;
+  }
+
+  span {
+    font-size: 22px;
+    color: #295666;
+  }
+
+}

@@ -1,0 +1,35 @@
+.textInput {
+  margin: 25px 0;
+  box-sizing: border-box;
+
+  input {
+    box-sizing: border-box;
+    border: 1px solid #a5a9aa;
+    margin: 5px 0;
+    width: 100%;
+    padding: 7px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+  }
+
+  input:focus {
+    border: 1px solid #70aab6;
+    box-shadow: 0 0 2px 1px #70aab6;
+  }
+
+  input:hover {
+    box-shadow: 0 0 2px 1px #a5a9aa;
+  }
+}
+
+.txt-label {
+  color: #5c626f;
+  font-size: 13px;
+}
+
+.txt-status {
+  height: 10px;
+  color: red;
+  font-size: 16px;
+  //border : 1px solid black;
+}
