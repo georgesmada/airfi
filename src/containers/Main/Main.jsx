@@ -1,18 +1,10 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
 import "./index.scss";
 
 import Landing from "../LandingPage/Landing.jsx";
 import Preview from "../PreviewPage/Preview.jsx";
 import Success from "../SuccessPage/Success.jsx";
-
-import PageHeader from '../../components/PageHeader/PageHeader.jsx';
-
-const pageTitles = [
-  "Enter",
-  "wd",
-  "wqd"
-]
 
 export default class Main extends React.Component{
 
@@ -40,8 +32,6 @@ export default class Main extends React.Component{
   }
 
   render(){
-    const { page } = this.state;
-
     return <div className="main">
       <div className="head-img"> <img src="img/catalyst.png"/> </div>
       {this.renderPage()}
